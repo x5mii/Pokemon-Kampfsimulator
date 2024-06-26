@@ -20,10 +20,18 @@ In diesem Projekt möchte ich einen Pokémon Kampfsimulator entwickeln, der Spie
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    | Muss |  F    | Als ein Spieler möchte ich, dass mir zu Beginn des Spiels drei zufällige Pokémon zugewiesen werden, damit ich mein Team für den Kampf bereit habe. |
+| 2    |Muss |  F    |  Als ein Spieler möchte ich, dass mein Pokémon eine Auswahl an Attacken hat, damit ich der Kampf immer anders aufgebaut ist.   |
+| 3 | Muss | F |Als ein Spieler möchte ich, dass der Kampf rundenbasiert abläuft, damit Spieler1 und Spieler2 abwechselnd Angriffe und Aktionen ausführen können. |
+| 4 | Muss | F  | Als ein Spieler möchte ich, dass die HP meines Pokémon nach einem Angriff korrekt berechnet und angezeigt werden, damit ich den Zustand meines Pokémon immer im Blick habe.|
+| 5| Muss | Q | Als ein Spieler möchte ich, dass die Benutzeroberfläche intuitiv und übersichtlich gestaltet ist, damit ich einfach durch das Spiel navigieren und meine Aktionen ausführen kann.|
+| 6 | Kann | R |: Als ein Spieler möchte ich, dass ich während des Kampfes Heilungs- oder andere Items einsetzen kann, damit das Spiel taktische Vorteile nutzen kann.|
+| 7 | Muss | F  | Als ein Spieler möchte ich, dass das Spiel den Kampf korrekt beendet und den Gewinner anzeigt, damit ich weiß, wer den Kampf gewonnen hat.|
+| 8 | Muss| F  |Als ein Entwickler möchte ich, dass die Daten aus MongoDB korrekt in das Spiel geladen werden, damit alle Pokémon, Moves und Items entsprechend ihrer Datenbankeinträge dargestellt werden.|
+| 9 | Kann | Q  |  Als ein Spieler möchte ich, dass das Spiel flüssig und ohne Verzögerungen läuft, damit man den Stand des Spiels genau sieht.|
+| 10| Muss | F |Als ein Spieler möchte ich, dass das Spiel die verbleibende HP meiner Pokémon nach jeder Runde anzeigt, damit ich das Spiel strategisch darauf Items benutzen kann.|
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+
 
 ### 1.3 Testfälle
 
@@ -70,7 +78,12 @@ Ich habe mich dazu entschieden dieses Projekt zu machen da es mir sicher viel k�
 | 3 | |unvollständig|Samuel Lucena |
 | 4 | |unvollständig|Samuel Lucena |
 | 5 | |unvollständig (ging eninmal) |Samuel Lucena |
+| 7 | |ok |Samuel Lucena |
+| 8 | |ok |Samuel Lucena |
+| 9 | |unvollständig |Samuel Lucena |
+| 10 | |unvollständig |Samuel Lucena |
 
+Ich weiss nicht ob ich mir die Ziele zu hoch gesetzt habe oder ich einfach nicht sehr effektiv gearbeitet habe, oder beides.
 ## 6 Auswerten
 
 Ersichtlich in meinem Portfolioeintrag auf Mahara
